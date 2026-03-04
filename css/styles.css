@@ -15,14 +15,18 @@ body {
     font-family: 'Roboto', Arial, sans-serif;
 }
 
-.photo {
-    width: 100px;
+.profile-img {
+    width: 300px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
 }
 
 .content-wrap {
     max-width: 950px;
     margin: 0 auto;
     padding: 50px;
+    overflow: hidden;
 }
 
 
@@ -72,6 +76,11 @@ h1 {
     font-size: 36px;
     font-family: 'Exo 2', Arial, sans-serif;
     font-weight: 700;
+}
+
+header h1,
+header h2 {
+    margin: 0;
 }
 
 /* End of Step 6 */
