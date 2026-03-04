@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 /* Color Palette
 # - color 1 #0A122A
 # - color 2 #698F3F
@@ -16,10 +24,20 @@ body {
 }
 
 .profile-img {
-    width: 300px;
     border-radius: 50%;
+}
+
+.column-narrow {
+    width: 30%;
     float: left;
-    margin-right: 30px;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
 }
 
 .content-wrap {
